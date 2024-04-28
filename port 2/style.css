@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1f4037, #99f2c8); /* Adiciona um gradiente de fundo */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Torna o fundo do cabeçalho semi-transparente */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7); /* Torna o fundo da navegação semi-transparente */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+section {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.7); /* Torna o fundo da seção semi-transparente */
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Torna o fundo do rodapé semi-transparente */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
